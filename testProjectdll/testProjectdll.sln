@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testProjectdll", "testProjectdll.vcxproj", "{D5E028EB-D54C-3BD6-A767-1A0452BD01E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "titledll", "..\titledll\titledll.vcxproj", "{538037B0-8B11-3CFD-BF57-4089EC2F1F0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Centraldll", "..\Centraldll\Centraldll.vcxproj", "{53591D5C-967C-336F-977A-D54E67F4B2F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PubSubLib", "..\PubSubLib\PubSubLib.vcxproj", "{435A5F79-CDC9-4202-97A9-FA79D22530C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E028EB-D54C-3BD6-A767-1A0452BD01E9}.Debug|x64.ActiveCfg = Debug|x64
+		{D5E028EB-D54C-3BD6-A767-1A0452BD01E9}.Debug|x64.Build.0 = Debug|x64
+		{D5E028EB-D54C-3BD6-A767-1A0452BD01E9}.Release|x64.ActiveCfg = Release|x64
+		{D5E028EB-D54C-3BD6-A767-1A0452BD01E9}.Release|x64.Build.0 = Release|x64
+		{538037B0-8B11-3CFD-BF57-4089EC2F1F0D}.Debug|x64.ActiveCfg = Debug|x64
+		{538037B0-8B11-3CFD-BF57-4089EC2F1F0D}.Debug|x64.Build.0 = Debug|x64
+		{538037B0-8B11-3CFD-BF57-4089EC2F1F0D}.Release|x64.ActiveCfg = Release|x64
+		{538037B0-8B11-3CFD-BF57-4089EC2F1F0D}.Release|x64.Build.0 = Release|x64
+		{53591D5C-967C-336F-977A-D54E67F4B2F9}.Debug|x64.ActiveCfg = Debug|x64
+		{53591D5C-967C-336F-977A-D54E67F4B2F9}.Debug|x64.Build.0 = Debug|x64
+		{53591D5C-967C-336F-977A-D54E67F4B2F9}.Release|x64.ActiveCfg = Release|x64
+		{53591D5C-967C-336F-977A-D54E67F4B2F9}.Release|x64.Build.0 = Release|x64
+		{435A5F79-CDC9-4202-97A9-FA79D22530C6}.Debug|x64.ActiveCfg = Debug|x64
+		{435A5F79-CDC9-4202-97A9-FA79D22530C6}.Debug|x64.Build.0 = Debug|x64
+		{435A5F79-CDC9-4202-97A9-FA79D22530C6}.Release|x64.ActiveCfg = Release|x64
+		{435A5F79-CDC9-4202-97A9-FA79D22530C6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A8676A3-3D14-4759-8EE0-40544A20031E}
+	EndGlobalSection
+EndGlobal
