@@ -6,11 +6,10 @@
 class SubInterface
 {
 public:
-    SubInterface() {}
-    virtual ~SubInterface() {}
-    virtual void ReceiveEvent(int iType) = 0;
-    virtual void ReceiveEvent(int iType, const QVariant& variant) = 0;
-    virtual void ReceiveEvent(int iType, const QVariant& variant, const QVariant& variant1) = 0;
-    virtual void ReceiveEvent(int iType, const QVariant& variant, const QVariant& variant1, const QVariant& variant2) = 0;
+    virtual ~SubInterface() = default;
+    virtual void ReceiveEvent(int) { }
+    virtual void ReceiveEvent(int , const QVariant& ) {}
+    virtual void ReceiveEvent(int , const QVariant& , const QVariant& ) {}
+    virtual void ReceiveEvent(int , const QVariant& , const QVariant& , const QVariant& ) {}
 };
 
